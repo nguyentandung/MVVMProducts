@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B036FA9DD89B3EC458A39A4 /* Pods_TekoTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E256535BA2392F2914D6F2 /* Pods_TekoTestProject.framework */; };
+		CD6B18A0274E2B1E00056A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B189F274E2B1E00056A48 /* AppDelegate.swift */; };
+		CD6B18A2274E2B1E00056A48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18A1274E2B1E00056A48 /* SceneDelegate.swift */; };
+		CD6B18A4274E2B1E00056A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18A3274E2B1E00056A48 /* ViewController.swift */; };
+		CD6B18A7274E2B1E00056A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6B18A5274E2B1E00056A48 /* Main.storyboard */; };
+		CD6B18A9274E2B1F00056A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6B18A8274E2B1F00056A48 /* Assets.xcassets */; };
+		CD6B18AC274E2B1F00056A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6B18AA274E2B1F00056A48 /* LaunchScreen.storyboard */; };
+		CD6B18B6274E320200056A48 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18B5274E320200056A48 /* ProductsViewController.swift */; };
+		CD6B18BA274E322700056A48 /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18B9274E322700056A48 /* StoryboardManager.swift */; };
+		CD6B18BF274E34B100056A48 /* ProductItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18BD274E34B100056A48 /* ProductItemTableViewCell.swift */; };
+		CD6B18C0274E34B100056A48 /* ProductItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6B18BE274E34B100056A48 /* ProductItemTableViewCell.xib */; };
+		CD6B18CF274E54D100056A48 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B18CE274E54D100056A48 /* Helper.swift */; };
+		CDA4606B275EF7CF000AF647 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4606A275EF7CF000AF647 /* ExtensionView.swift */; };
+		CDD72CFE275488CD002C420C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72CFD275488CD002C420C /* Config.swift */; };
+		CDD72D012754947C002C420C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D002754947C002C420C /* APIService.swift */; };
+		CDD72D04275494B9002C420C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D03275494B9002C420C /* Product.swift */; };
+		CDD72D07275495CF002C420C /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D06275495CF002C420C /* ProductsViewModel.swift */; };
+		CDD72D4627551596002C420C /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D4527551596002C420C /* ColorsViewModel.swift */; };
+		CDD72D492755173E002C420C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D482755173E002C420C /* Color.swift */; };
+		CDD72D5227552FB0002C420C /* TekoProjectUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D5127552FB0002C420C /* TekoProjectUnitTest.swift */; };
+		CDD72D5D27552FE0002C420C /* UnitTestTekoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD72D5C27552FE0002C420C /* UnitTestTekoApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD72D5427552FB0002C420C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6B1894274E2B1E00056A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6B189B274E2B1E00056A48;
+			remoteInfo = TekoTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		586F6F1994A0984FA09112D2 /* Pods-TekoTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekoTestProject.debug.xcconfig"; path = "Target Support Files/Pods-TekoTestProject/Pods-TekoTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		847C016CFEC2BE5C2D44623A /* Pods-TekoTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekoTestProject.release.xcconfig"; path = "Target Support Files/Pods-TekoTestProject/Pods-TekoTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		C2E256535BA2392F2914D6F2 /* Pods_TekoTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekoTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6B189C274E2B1E00056A48 /* TekoTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekoTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6B189F274E2B1E00056A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6B18A1274E2B1E00056A48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD6B18A3274E2B1E00056A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6B18A6274E2B1E00056A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6B18A8274E2B1F00056A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6B18AB274E2B1F00056A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6B18AD274E2B1F00056A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6B18B5274E320200056A48 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		CD6B18B9274E322700056A48 /* StoryboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		CD6B18BD274E34B100056A48 /* ProductItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemTableViewCell.swift; sourceTree = "<group>"; };
+		CD6B18BE274E34B100056A48 /* ProductItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductItemTableViewCell.xib; sourceTree = "<group>"; };
+		CD6B18CE274E54D100056A48 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CDA4606A275EF7CF000AF647 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		CDD72CFD275488CD002C420C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CDD72D002754947C002C420C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CDD72D03275494B9002C420C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CDD72D06275495CF002C420C /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		CDD72D4527551596002C420C /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
+		CDD72D482755173E002C420C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CDD72D4F27552FAF002C420C /* TekoProjectUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekoProjectUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD72D5127552FB0002C420C /* TekoProjectUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekoProjectUnitTest.swift; sourceTree = "<group>"; };
+		CDD72D5327552FB0002C420C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD72D5C27552FE0002C420C /* UnitTestTekoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestTekoApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6B1899274E2B1E00056A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B036FA9DD89B3EC458A39A4 /* Pods_TekoTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD72D4C27552FAF002C420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9836D028CA16A266D7614C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E256535BA2392F2914D6F2 /* Pods_TekoTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E760CEC84DA8A8BE879D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				586F6F1994A0984FA09112D2 /* Pods-TekoTestProject.debug.xcconfig */,
+				847C016CFEC2BE5C2D44623A /* Pods-TekoTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD6B1893274E2B1E00056A48 = {
+			isa = PBXGroup;
+			children = (
+				CD6B189E274E2B1E00056A48 /* TekoTestProject */,
+				CDD72D5027552FAF002C420C /* TekoProjectUnitTest */,
+				CD6B189D274E2B1E00056A48 /* Products */,
+				C9E760CEC84DA8A8BE879D52 /* Pods */,
+				A9836D028CA16A266D7614C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6B189D274E2B1E00056A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B189C274E2B1E00056A48 /* TekoTestProject.app */,
+				CDD72D4F27552FAF002C420C /* TekoProjectUnitTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6B189E274E2B1E00056A48 /* TekoTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72D5B27552FCA002C420C /* UnitTest */,
+				CDD72CFC275488B9002C420C /* Helper */,
+				CDD72CFB275485F2002C420C /* ViewModel */,
+				CDD72CFA275485E4002C420C /* ViewController */,
+				CDD72CF9275485D8002C420C /* Model */,
+				CD6B18B4274E31DB00056A48 /* Product */,
+				CD6B189F274E2B1E00056A48 /* AppDelegate.swift */,
+				CD6B18A1274E2B1E00056A48 /* SceneDelegate.swift */,
+				CD6B18A3274E2B1E00056A48 /* ViewController.swift */,
+				CD6B18A5274E2B1E00056A48 /* Main.storyboard */,
+				CD6B18A8274E2B1F00056A48 /* Assets.xcassets */,
+				CD6B18AA274E2B1F00056A48 /* LaunchScreen.storyboard */,
+				CD6B18AD274E2B1F00056A48 /* Info.plist */,
+				CD6B18B9274E322700056A48 /* StoryboardManager.swift */,
+				CD6B18CE274E54D100056A48 /* Helper.swift */,
+			);
+			path = TekoTestProject;
+			sourceTree = "<group>";
+		};
+		CD6B18B4274E31DB00056A48 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B18BC274E348800056A48 /* Cell */,
+				CD6B18B5274E320200056A48 /* ProductsViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CD6B18BC274E348800056A48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B18BD274E34B100056A48 /* ProductItemTableViewCell.swift */,
+				CD6B18BE274E34B100056A48 /* ProductItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CDD72CF9275485D8002C420C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72D03275494B9002C420C /* Product.swift */,
+				CDD72D482755173E002C420C /* Color.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDD72CFA275485E4002C420C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CDD72CFB275485F2002C420C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72D06275495CF002C420C /* ProductsViewModel.swift */,
+				CDD72D4527551596002C420C /* ColorsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDD72CFC275488B9002C420C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72CFD275488CD002C420C /* Config.swift */,
+				CDD72D002754947C002C420C /* APIService.swift */,
+				CDA4606A275EF7CF000AF647 /* ExtensionView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CDD72D5027552FAF002C420C /* TekoProjectUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72D5127552FB0002C420C /* TekoProjectUnitTest.swift */,
+				CDD72D5327552FB0002C420C /* Info.plist */,
+			);
+			path = TekoProjectUnitTest;
+			sourceTree = "<group>";
+		};
+		CDD72D5B27552FCA002C420C /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CDD72D5C27552FE0002C420C /* UnitTestTekoApp.swift */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6B189B274E2B1E00056A48 /* TekoTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6B18B0274E2B1F00056A48 /* Build configuration list for PBXNativeTarget "TekoTestProject" */;
+			buildPhases = (
+				D7CB5FBA392C2E6C34A8450F /* [CP] Check Pods Manifest.lock */,
+				CD6B1898274E2B1E00056A48 /* Sources */,
+				CD6B1899274E2B1E00056A48 /* Frameworks */,
+				CD6B189A274E2B1E00056A48 /* Resources */,
+				D7AC45FAEE92FC8B1D857DD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekoTestProject;
+			productName = TekoTestProject;
+			productReference = CD6B189C274E2B1E00056A48 /* TekoTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD72D4E27552FAF002C420C /* TekoProjectUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD72D5627552FB0002C420C /* Build configuration list for PBXNativeTarget "TekoProjectUnitTest" */;
+			buildPhases = (
+				CDD72D4B27552FAF002C420C /* Sources */,
+				CDD72D4C27552FAF002C420C /* Frameworks */,
+				CDD72D4D27552FAF002C420C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD72D5527552FB0002C420C /* PBXTargetDependency */,
+			);
+			name = TekoProjectUnitTest;
+			productName = TekoProjectUnitTest;
+			productReference = CDD72D4F27552FAF002C420C /* TekoProjectUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6B1894274E2B1E00056A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CD6B189B274E2B1E00056A48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CDD72D4E27552FAF002C420C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CD6B189B274E2B1E00056A48;
+					};
+				};
+			};
+			buildConfigurationList = CD6B1897274E2B1E00056A48 /* Build configuration list for PBXProject "TekoTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6B1893274E2B1E00056A48;
+			productRefGroup = CD6B189D274E2B1E00056A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6B189B274E2B1E00056A48 /* TekoTestProject */,
+				CDD72D4E27552FAF002C420C /* TekoProjectUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6B189A274E2B1E00056A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6B18C0274E34B100056A48 /* ProductItemTableViewCell.xib in Resources */,
+				CD6B18AC274E2B1F00056A48 /* LaunchScreen.storyboard in Resources */,
+				CD6B18A9274E2B1F00056A48 /* Assets.xcassets in Resources */,
+				CD6B18A7274E2B1E00056A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD72D4D27552FAF002C420C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7AC45FAEE92FC8B1D857DD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TekoTestProject/Pods-TekoTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TekoTestProject/Pods-TekoTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TekoTestProject/Pods-TekoTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CB5FBA392C2E6C34A8450F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TekoTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6B1898274E2B1E00056A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6B18A4274E2B1E00056A48 /* ViewController.swift in Sources */,
+				CDA4606B275EF7CF000AF647 /* ExtensionView.swift in Sources */,
+				CDD72D07275495CF002C420C /* ProductsViewModel.swift in Sources */,
+				CDD72D4627551596002C420C /* ColorsViewModel.swift in Sources */,
+				CD6B18CF274E54D100056A48 /* Helper.swift in Sources */,
+				CDD72D492755173E002C420C /* Color.swift in Sources */,
+				CD6B18A0274E2B1E00056A48 /* AppDelegate.swift in Sources */,
+				CD6B18BF274E34B100056A48 /* ProductItemTableViewCell.swift in Sources */,
+				CD6B18B6274E320200056A48 /* ProductsViewController.swift in Sources */,
+				CDD72CFE275488CD002C420C /* Config.swift in Sources */,
+				CD6B18A2274E2B1E00056A48 /* SceneDelegate.swift in Sources */,
+				CDD72D5D27552FE0002C420C /* UnitTestTekoApp.swift in Sources */,
+				CDD72D04275494B9002C420C /* Product.swift in Sources */,
+				CDD72D012754947C002C420C /* APIService.swift in Sources */,
+				CD6B18BA274E322700056A48 /* StoryboardManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD72D4B27552FAF002C420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD72D5227552FB0002C420C /* TekoProjectUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD72D5527552FB0002C420C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6B189B274E2B1E00056A48 /* TekoTestProject */;
+			targetProxy = CDD72D5427552FB0002C420C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6B18A5274E2B1E00056A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6B18A6274E2B1E00056A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6B18AA274E2B1F00056A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6B18AB274E2B1F00056A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6B18AE274E2B1F00056A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6B18AF274E2B1F00056A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6B18B1274E2B1F00056A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586F6F1994A0984FA09112D2 /* Pods-TekoTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92P29782V7;
+				INFOPLIST_FILE = TekoTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = entidi.me.TekoTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6B18B2274E2B1F00056A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847C016CFEC2BE5C2D44623A /* Pods-TekoTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92P29782V7;
+				INFOPLIST_FILE = TekoTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = entidi.me.TekoTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDD72D5727552FB0002C420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92P29782V7;
+				INFOPLIST_FILE = TekoProjectUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = entidi.me.TekoProjectUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekoTestProject.app/TekoTestProject";
+			};
+			name = Debug;
+		};
+		CDD72D5827552FB0002C420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92P29782V7;
+				INFOPLIST_FILE = TekoProjectUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = entidi.me.TekoProjectUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekoTestProject.app/TekoTestProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6B1897274E2B1E00056A48 /* Build configuration list for PBXProject "TekoTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6B18AE274E2B1F00056A48 /* Debug */,
+				CD6B18AF274E2B1F00056A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6B18B0274E2B1F00056A48 /* Build configuration list for PBXNativeTarget "TekoTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6B18B1274E2B1F00056A48 /* Debug */,
+				CD6B18B2274E2B1F00056A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD72D5627552FB0002C420C /* Build configuration list for PBXNativeTarget "TekoProjectUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD72D5727552FB0002C420C /* Debug */,
+				CDD72D5827552FB0002C420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6B1894274E2B1E00056A48 /* Project object */;
+}
